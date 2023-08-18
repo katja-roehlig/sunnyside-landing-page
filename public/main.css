@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Barlow";
+  src: url(../assets/fonts/Barlow.woff2);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Faunces-bold";
+  src: url(../assets/fonts/Faunces_Bold.woff2);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Faunces-black";
+  src: url(../assets/fonts/Faunces_Black.woff2);
+  font-weight: 900;
+}
+
+/*# sourceMappingURL=main.css.map */
