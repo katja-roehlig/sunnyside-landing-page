@@ -1,17 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  padding: 0 0;
+  font-family: sans-serif;
+}
+
+body {
+  font-family: "Barlow";
+  font-size: 1.8rem;
+}
+
+h1 {
+  font-family: "Fraunces-black";
+  font-size: 3.5rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  margin-block: 11rem 4rem;
+}
+
+h2 {
+  font-family: "Fraunces-black";
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Fraunces-bold";
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Fraunces-bold";
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.link {
+  all: unset;
+}
+
 @font-face {
   font-family: "Barlow";
   src: url(../assets/fonts/Barlow.woff2);
   font-weight: 600;
 }
 @font-face {
-  font-family: "Faunces-bold";
-  src: url(../assets/fonts/Faunces_Bold.woff2);
+  font-family: "Fraunces-bold";
+  src: url(../assets/fonts/Fraunces_Bold.woff2);
   font-weight: 700;
 }
 @font-face {
-  font-family: "Faunces-black";
-  src: url(../assets/fonts/Faunces_Black.woff2);
+  font-family: "Fraunces-black";
+  src: url(../assets/fonts/Fraunces_Black.woff2);
   font-weight: 900;
+}
+.nav__list {
+  display: none;
+}
+
+.header {
+  width: 100%;
+  height: 80vh;
+  background-image: url("../assets/images/mobile/image-header.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 3rem 2rem;
+}
+.header-arrow {
+  position: relative;
+  left: 45%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-brand {
+  font-size: 2.5rem;
+  color: white;
+}
+.nav-menu {
+  height: 1.8rem;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+
+  padding: 0 0;
+  font-family: sans-serif;
+}
+body {
+  font-family: "Barlow";
+  font-size: 1.8rem;
+}
+
+h1 {
+  font-family: "Fraunces-black";
+  font-size: 3.5rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  margin-block: 11rem 4rem;
+}
+
+h2 {
+  font-family: "Fraunces-black";
+  font-size: 3.2rem;
+  text-align: center;
+}
+h3 {
+  font-family: "Fraunces-bold";
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  text-align: center;
+}
+h4 {
+  font-family: "Fraunces-bold";
+  font-size: 1.8rem;
+  text-align: center;
+}
+.link {
+  all: unset;
+}
