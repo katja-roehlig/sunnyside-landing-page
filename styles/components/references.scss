@@ -1,0 +1,11 @@
+@use "../abstracts/" as *;
+
+.references {
+  &-text {
+    color: $neutral-blue-grey-dark;
+  }
+  &-job {
+    color: $neutral-blue-grey-light;
+    font-size: 1.3rem;
+  }
+}

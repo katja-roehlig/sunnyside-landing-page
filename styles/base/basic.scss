@@ -1,3 +1,5 @@
+@use "../abstracts/" as *;
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,12 +17,12 @@ body {
 
 h1 {
   font-family: "Fraunces-black";
-  font-size: 3.5rem;
-  color: white;
+  font-size: 3.7rem;
+  color: $neutral-white;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
   text-align: center;
-  margin-block: 11rem 4rem;
+  margin-block: 10rem 4rem;
 }
 
 h2 {
@@ -34,6 +36,7 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 0.4rem;
   text-align: center;
+  color: $neutral-blue-grey-light;
 }
 h4 {
   font-family: "Fraunces-bold";

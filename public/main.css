@@ -16,12 +16,12 @@ body {
 
 h1 {
   font-family: "Fraunces-black";
-  font-size: 3.5rem;
-  color: white;
+  font-size: 3.7rem;
+  color: hsl(0deg, 0%, 100%);
   text-transform: uppercase;
   letter-spacing: 0.5rem;
   text-align: center;
-  margin-block: 11rem 4rem;
+  margin-block: 10rem 4rem;
 }
 
 h2 {
@@ -36,6 +36,7 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 0.4rem;
   text-align: center;
+  color: hsl(210deg, 4%, 67%);
 }
 
 h4 {
@@ -74,7 +75,7 @@ h4 {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   margin: 0;
-  padding: 3rem 2rem;
+  padding: 3rem 2.2rem;
 }
 .header-arrow {
   position: relative;
@@ -85,12 +86,29 @@ h4 {
   display: flex;
   justify-content: space-between;
 }
-.nav-brand {
-  font-size: 2.5rem;
-  color: white;
-}
 .nav-menu {
   height: 1.8rem;
+}
+
+.design {
+  color: hsl(167deg, 40%, 24%);
+}
+
+.photography {
+  color: hsl(198deg, 62%, 26%);
+}
+
+.references-text {
+  color: hsl(213deg, 9%, 39%);
+}
+.references-job {
+  color: hsl(210deg, 4%, 67%);
+  font-size: 1.3rem;
+}
+
+.footer {
+  background-color: hsl(168deg, 34%, 75%);
+  color: hsl(168deg, 34%, 41%);
 }
 
 /*# sourceMappingURL=main.css.map */
