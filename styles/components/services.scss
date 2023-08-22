@@ -1,8 +1,60 @@
 @use "../abstracts/" as *;
 
+.foto {
+  width: 100vw;
+}
+
 .design {
   color: $primary-cyan-grey;
 }
+.inside {
+  position: relative;
+  &-content {
+    position: absolute;
+    top: 55%;
+  }
+  &-text {
+    padding-inline: 2.2rem;
+    line-height: 2.7rem;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+}
 .photography {
   color: $primary-blue;
+  top: -0.4rem;
+}
+.text {
+  padding-inline: 2.2rem;
+  line-height: 2.7rem;
+  text-align: center;
+  color: $neutral-blue-grey-middle;
+}
+
+.link-container {
+  text-align: center;
+  font-family: Fraunces-bold;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  padding-block: 3rem 8rem;
+  position: relative;
+}
+.underline {
+  height: 1rem;
+  width: 13rem;
+  border-radius: 6px;
+
+  position: absolute;
+  left: calc(50% - 6.5rem);
+  top: 33%;
+  z-index: -1;
+  &-transform {
+    background-color: hsl(51, 100%, 88%);
+  }
+  &-audience {
+    background-color: hsl(7, 99%, 93%);
+  }
+}
+.link {
+  all: unset;
 }
