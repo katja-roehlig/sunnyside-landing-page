@@ -1,11 +1,42 @@
 @use "../abstracts/" as *;
 
 .references {
+  padding: 0 2.2rem 3rem 2.2rem;
   &-text {
     color: $neutral-blue-grey-dark;
+    line-height: 3rem;
+    text-align: center;
+    padding-block: 4rem;
   }
   &-job {
     color: $neutral-blue-grey-light;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    padding-block: 1.3rem 6rem;
   }
+  &-foto {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    background-size: cover;
+  }
+  &-client {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &-name {
+    font-family: "Fraunces-black";
+    font-size: 1.8rem;
+  }
+}
+.first-client-foto {
+  background-image: url("../assets/images/image-emily.jpg");
+}
+.second-client-foto {
+  background-image: url("../assets/images/image-thomas.jpg");
+}
+
+.third-client-foto {
+  background-image: url("../assets/images/image-jennie.jpg");
 }

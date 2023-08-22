@@ -35,17 +35,12 @@ h2 {
 
 h3 {
   font-family: "Fraunces-bold";
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
   letter-spacing: 0.4rem;
   text-align: center;
   color: hsl(210deg, 4%, 67%);
-}
-
-h4 {
-  font-family: "Fraunces-bold";
-  font-size: 1.8rem;
-  text-align: center;
+  margin-block: 5rem 6rem;
 }
 
 .link {
@@ -156,17 +151,60 @@ h4 {
   all: unset;
 }
 
+.references {
+  padding: 0 2.2rem 3rem 2.2rem;
+}
 .references-text {
   color: hsl(213deg, 9%, 39%);
+  line-height: 3rem;
+  text-align: center;
+  padding-block: 4rem;
 }
 .references-job {
   color: hsl(210deg, 4%, 67%);
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+  padding-block: 1.3rem 6rem;
+}
+.references-foto {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  background-size: cover;
+}
+.references-client {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.references-name {
+  font-family: "Fraunces-black";
+  font-size: 1.8rem;
+}
+
+.first-client-foto {
+  background-image: url("../assets/images/image-emily.jpg");
+}
+
+.second-client-foto {
+  background-image: url("../assets/images/image-thomas.jpg");
+}
+
+.third-client-foto {
+  background-image: url("../assets/images/image-jennie.jpg");
 }
 
 .footer {
   background-color: hsl(168deg, 34%, 75%);
   color: hsl(168deg, 34%, 41%);
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pictures-foto {
+  width: 50vw;
 }
 
 /*# sourceMappingURL=main.css.map */
